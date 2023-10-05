@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <p onclick="callAJAX('https://tuoitre.vn/the-thao.htm')">
+        Click vao day !
+        </p>
+    </body>
+
+    <script>
+
+        function callAJAX(theURL) {
+            var httpRequest = new XMLHttpRequest();
+            httpRequest.onreadystatechange = 
+                function() { alert(httpRequest); };
+            httpRequest.open("GET", theURL, true);
+            httpRequest.send(null);
+        }
+    </script>
+</html>

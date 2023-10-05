@@ -1,0 +1,32 @@
+<html>
+    <body>
+        <p onclick="callAJAX('thongtin.json')">
+        Click vao day !
+        </p>
+        <hr>
+        <p id="KetQua"></p>
+    </body>
+
+    <script>
+        function callAJAX(theURL) {
+            var httpRequest = new XMLHttpRequest();
+            httpRequest.onreadystatechange = 
+                function() { alertContents(httpRequest); };
+            httpRequest.open("GET", theURL, true);
+            httpRequest.send(null);
+        }        
+
+        function alertContents(httpRequest) {
+            if (httpRequest.readyState == 4) {
+                if ( httpRequest.status == 200
+                || httpRequest.status == 0 ) {
+                    document.getElementById("KetQua").textContent
+                    = httpRequest.responseText;
+
+                    var obj = JSON.parse(httpRequest.responseText);
+                    console.log(obj);
+                }
+            }
+        }
+    </script>
+</html>
