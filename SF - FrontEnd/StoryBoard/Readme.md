@@ -37,6 +37,12 @@ P02:
 
 ![image](https://github.com/AdTekDev/CLaas/assets/18588011/af83039d-e633-45af-877f-a9365eb3872a)
 
+![image](https://github.com/AdTekDev/CLaas/assets/18588011/32c44e8e-2469-4568-9093-99e070692480)
+
+![image](https://github.com/AdTekDev/CLaas/assets/18588011/b3c7d84e-5399-4015-87cb-d4bcdebaba89)
+
+![image](https://github.com/AdTekDev/CLaas/assets/18588011/00631e21-55ce-4fc1-8857-dff3abb823bf)
+
 
 ## Guides
 
@@ -71,4 +77,6 @@ Is there a clear and obvious way for the users to purchase the product?
 - https://careerfoundry.com/en/blog/ui-design/best-storyboard-examples/
 - https://uxbooth.com/articles/how-to-use-storyboards-for-product-development/
 - https://ryanstutorials.net/software-design-and-development/storyboards.php
-- https://www.linkedin.com/pulse/learn-5-steps-create-storyboard-examples-reetika-gupta 
+- https://www.linkedin.com/pulse/learn-5-steps-create-storyboard-examples-reetika-gupta
+- https://docs.idew.org/project-internet-of-things/project-instructions/1-discover-and-define-problem/1.8-interaction-storyboard
+- https://anniehaydesign.weebly.com/app-design/storyboarding 
